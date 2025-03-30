@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flexbox Column Example</title>
+        <style>
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                height: 100vh; /* Full viewport height */
+            }
+            .item {
+                padding: 20px;
+                background-color: lightgray;
+            }
+            .item1,
+            .item3 {
+                flex-grow: 0; /* Default value, can be omitted */
+            }
+            .item2 {
+                flex-grow: 1; /* This element will take up the remaining space */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item item1">Item 1</div>
+            <div class="item item2" style="height: 10000px; overflow: auto">
+                Item 2 asfda s dsf sd f ds gfd g dgdfg s dsf sd f ds gfd g
+                dgdfgs dsf sd f ds gfd g dgdfgs dsf sd f ds gfd g dgdfgs dsf sd
+                f ds gfd g dgdfgs dsf sd f ds gfd g dgdfgs dsf sd f ds gfd g
+                dgdfgs dsf sd f ds gfd g dgdfgs dsf sd f ds gfd g dgdfgs dsf sd
+                f ds gfd g dgdfg<br />
+
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+                ds gfd g dgdfg<br />
+            </div>
+            <div class="item item3">Item 3</div>
+        </div>
+    </body>
+</html>
